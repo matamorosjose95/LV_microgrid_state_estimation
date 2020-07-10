@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
+import pandapower.networks as pn
+import pandapower.plotting as plot
+import pandapower as pp
 
 def plot_network(net):
 	#  función que recibe una red y la grafica.
