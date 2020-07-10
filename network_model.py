@@ -3,6 +3,7 @@
 import pandapower.networks as pn
 import pandapower.plotting as plot
 import pandapower as pp
+import numpy as np
 
 def plot_network(net):
 	#  función que recibe una red y la grafica.
