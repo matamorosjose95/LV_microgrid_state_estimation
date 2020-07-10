@@ -111,9 +111,9 @@ def calculate_current(v1,t1,v2,t2, r, x):
    I = (V1-V2)/(r+x*1j)
    return I
        
-def observation_model(X):
+def observation_model(X, r, x):
    # calcua las potencias que deberían observarse con los valores de tensiones y 
-   # ángulos del estado X
+   # ángulos del estado X usando los parametros r y x de las lineas
    
    # Potencia nodo 2
    I_23 = calculate_current(X[1],X[21],X[2],X[22],r[1,2],x[1,2])
